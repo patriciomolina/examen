@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @edificio.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @edificio.address %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @edificio.city %>
+</p>
+
+<%= link_to 'Edit', edit_edificio_path(@edificio) %> |
+<%= link_to 'Back', edificios_path %>
+
+#<%= link_to 'Agregar departamento', new_edificio_apartment_path(@edificio) %>
